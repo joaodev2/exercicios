@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+.container{
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate( -50%, -50%);
+  
+ }
+  
+ .pai{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 350px;
+  background-color: violet;
+}
+.filho{
+  height: 100px;
+  width: 100px;
+  background-color: aqua;}
+
+ 
+ 

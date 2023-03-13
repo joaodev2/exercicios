@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+  :root{
+  --fonth1:'Noto Serif', serif; }
+ 
+*{
+margin: 0;
+padding: 0;}
+
+
+ 
+  html{
+  overflow-y: hidden;
+  max-width: 100%;
+  }
+
+  header a {
+  text-decoration: none;
+  font-family: var(--fonth1);
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.649);
+  
+  }
+header ul{
+  justify-content: space-evenly;
+  list-style-type:none;
+  display: flex;
+  padding: 20px 0;
+  border-bottom:1px solid rgba(0, 0, 0, 0.095);
+}
+ main {
+  margin: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;}
+
+  #quem-somos{
+    
+    max-width: 450px;}
+
+  article > h1{
+   line-height: 70px;
+   margin-bottom: 25px;
+   font-size: 4em;
+   color: rgb(91, 85, 200);
+   font-family: var(--fonth1);}
+   
+
+   article > p{
+    color: rgba(0, 0, 64, 0.758);
+    font-size: 1.2em;
+    line-height:2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #bottom-junte-se-hoje > a {
+       text-decoration: none;
+       display: inline-block;
+       margin-top: 30px;
+       text-align: center;
+       border-radius: 30px;
+       padding: 10px 17px;
+       font-size: 18px;
+       font-family:var(--fonth1);
+       color: white;
+        background-image: linear-gradient(45deg , rgb(255, 97, 124) 40%,rgb(183, 91, 106));
+       box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.253); 
+          
+    }
+       
+    #bottom-junte-se-hoje > a:hover { 
+    background-image: none;
+    text-decoration: underline 1px;
+    background-color: rgb(255, 112, 136);}
+     
+  
+
+ #foto-da-mulher {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+ #foto-da-mulher>div {
+   background-image: linear-gradient(45deg , rgb(249, 75, 104) ,  rgb(253, 171, 187));
+   width: 500px;
+   height:500px;
+   border-radius: 50%;
+   position: absolute;
+   z-index: -1;
+}
+
+
+
+ 
+
+ 
+
+    
+
+
+  
+
+  

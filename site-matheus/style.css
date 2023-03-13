@@ -1,0 +1,287 @@
+ @charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ :root{
+    --title:#d51fbc;
+    --primary: #00baf2;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+    --font-title:'Poppins', sans-serif;}
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-title);}
+
+ .container-evento{
+ padding: 0px 100px;
+ background-image: linear-gradient(rgba(0, 0, 0,0.744), rgba(0, 0, 0,0.744)),url(imagens/hrz-5.jpg);
+ background-size: cover;
+ background-position: center;
+ height: 90vh;
+ display: flex;
+ align-items: center;
+ font-family: var(--font-title);
+}
+
+
+.container-convite{
+ margin: auto;
+ max-width: 50%;
+ color: var(--text-color);
+ display: flex;
+ gap: 36px;
+ flex-direction: column;
+}
+
+.container-convite h1{
+  font-size: 3.9em;
+  
+
+  color: var(--title);}
+
+.container-convite h2{
+ text-transform: uppercase;
+  line-height: 40px;
+  width: 50%;
+  font-size:2.0em;
+}
+
+
+.container-convite p {
+    font-size: 1.18em;
+    font-weight: 300;
+}
+
+span{
+    color: var(--title);
+   font-weight: 600;}
+
+
+.container-formulario{   
+ display: flex;
+ flex-direction: column;
+ max-width: 50%; 
+ margin: auto;   
+}
+
+
+ .container-formulario h2{
+ font-weight: 300;
+ max-width: 500px;
+ line-height: 35px;
+ margin-bottom: 30px;}
+ form{
+ width: 400px;
+ padding: 40px;
+ display: flex;
+ flex-direction: column;
+ background-color: var(--secondary);
+ height: 78vh}
+
+ .form1 > input{
+  outline: none;
+  border: none;
+  color: var(--text-tertiary);
+  font-size: 1.05em;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;}
+
+  .form2{
+    display: flex;
+    flex-direction: column;}
+
+  .form2 > select{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.05em;
+    color: var(--text-tertiary);
+}
+
+.form2 span{
+  display: flex;
+ justify-content: center;
+ margin-top: 20px;}
+
+ span>input{
+ padding: 10px 60px;
+ border: none;
+ color:  var(--text-color);
+ background-color: var(--title);
+ outline: none;
+ font-size: 1.1em;
+ text-transform: uppercase;
+}
+
+label{
+ font-weight: 600;
+ color: var(--text-tertiary);}
+
+ .o-que-vai-aprender{
+  width: 100vw;
+  height: 100px;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.o-que-vai-aprender h2{
+  font-weight: 400;
+}
+
+ .img-vai-aprender{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: end;
+   margin-bottom: 50px;
+   height: 63vh;
+ }
+
+ .img-vai{
+  background-image: url(imagens/sqr-1.jpg);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+ ;
+  
+  }
+
+  .img-central{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+  }
+
+  .img-central > p{
+    margin-top: 15px;
+    font-weight: 300;
+    max-width: 250px;
+    text-align: center;
+    color: var(--text-tertiary);}
+
+ 
+  #img-vai-2{
+    background-image: url(imagens/sqr-2.jpg);}
+
+    #img-vai-3{
+      background-image: url(imagens/sqr-3.jpg);}
+
+      .local{
+        height: 55vh;
+        background-image: linear-gradient(rgba(0, 0, 0,0.744), rgba(0, 0, 0,0.744)),url(imagens/hrz-1.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 50px;
+       color: white;
+       display: flex;
+       align-items: center;
+       justify-content: space-around; }
+
+
+      .endereco , .sobre-local {
+        max-width: 30%; 
+       }
+
+        .endereco{
+         display: flex;
+         align-items: center;}
+
+         .endereco i{
+         font-size: 4em;
+         color: var(--title);
+         margin-right: 20px;}
+       .endereco p{
+        text-align: center;
+        font-weight: 300;
+        font-size: 1.4em;
+        max-width: 250px; 
+        }
+
+        .sobre-local h2{
+        color:  var(--title);
+        font-size: 2.6em;
+       margin-bottom: 30px;}
+
+        
+        .conheca-ambiente img{
+          width: 600px;}
+
+         
+
+          .todos-amb{
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           max-width: 80%;
+           margin: auto ;
+           margin-bottom: 100px;
+          }
+
+           #amb-1{
+            display: flex;
+            justify-content: space-around;
+
+            }
+
+           #amb-1 h2{
+             width: 400px;
+            font-size: 2.6em;
+           }
+
+           .list-amb{
+            display: flex;
+            flex-direction: column;
+           }
+
+           .list-amb h2{
+            font-weight: 400;
+            font-size: 2.3em;}
+
+            .list-amb li {
+             color: var(--text-tertiary);
+             font-weight: 300;}
+
+             span{
+             font-weight: bold;}
+
+             .inscreva{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               gap: 30px;
+               height: 50vh;
+               background-image: linear-gradient(rgba(0, 0, 0,0.744), rgba(0, 0, 0,0.744)),url(imagens/hrz-6.jpg);
+               background-position: center;
+                background-size: cover;}
+
+                .inscreva h2{
+                  font-weight: 500;
+                  color: white  ;
+                 font-size: 2.2em;}
+
+               footer{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+               color: var(--text-tertiary);
+               height: 39vh;}
+
+               footer h2{
+                color: var(--secondary);
+                font-size: 2.5em;}
+  
+
+
+
+

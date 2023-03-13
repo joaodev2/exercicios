@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+    
+body {
+   background-image: linear-gradient(to right, #3198E2 10%, #6D59C0, #E33F5F)
+
+}
+p { 
+    color: rgb(230, 176, 38);
+}
+h1 { 
+    color: yellow;
+}

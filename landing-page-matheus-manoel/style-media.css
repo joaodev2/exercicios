@@ -1,0 +1,7 @@
+ @charset "UTF-8";
+
+  @media screen and (max-width: 1024px){
+   body{
+      color: aliceblue;
+      max-width: 50vw;}
+  }
