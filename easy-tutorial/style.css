@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width :838px)
+
+{
+    .primeira-parte h1{
+        color: yellowgreen;
+     font-size: 5.4em;}
+     
+     .primeira-parte button{
+        max-width: 30%;}
+  
+}
+
+@media screen and (max-width :760px)
+
+{
+    .primeira-parte h1{
+        
+        font-size: 4.5em;
+    }
+
+       .primeira-parte button{
+        max-width: 30%;
+     }
+  
+}
+
+@media screen and (max-width :675px)
+
+{
+    .primeira-parte h1{
+        
+        font-size: 4em;
+    }
+
+       .primeira-parte button{
+        max-width: 30%;
+     }
+  
+}
+
+@media screen and (max-width :645px)
+
+{
+    .primeira-parte h1{
+        
+        font-size: 3.5em;
+    }
+
+       .primeira-parte button{
+        max-width: 40%;
+     }
+  
+}
+
+@media screen and (max-width :590px)
+
+{
+    .primeira-parte h1{
+        
+        font-size: 3.0em;
+    }
+
+       .primeira-parte button{
+        
+     }
+  
+}
+
+@media screen and (max-width :510px)
+
+{
+    .canto-socias{
+     display: none;}
+
+}
+@media screen and (max-width :410px)
+
+{
+   header{
+ transform: scale(0.7);
+}
+
+.primeira-parte{
+    transform: scale(0.9);
+   }
+   .primeira-parte button {
+    max-width: 50%;
+
+ }
+   
+}
