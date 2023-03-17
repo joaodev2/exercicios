@@ -58,7 +58,7 @@
 
  .home-text{
     margin-right: 91px;
-   max-width: 550px;
+   max-width: 37rem;
 }
 
 .home-text .text-h4{
@@ -96,39 +96,6 @@
  }
 
 
-
- @media screen and (max-width: 1100px){
-     .home{
-     display: flex;
-    flex-direction: column;
-    text-align: center;   
- }
-    .home-text{
-     display: flex;
-     flex-direction: column;
-    justify-content: center;
-    align-items: center;}
-
-
-   body{
-         overflow: auto;}
-    .home-img img{
-    width: 100%;
-    max-width: 70%;
-    margin-top: 40px;
-    }
+@media screen {
     
- }
-
- @media screen and (max-width: 850px){
-   header h1{
-      padding-right: 30px;
 }
-}
- @media screen and (max-width: 750px){
-    .navegation{
-     display: none;}
-   
-}
- 
-
