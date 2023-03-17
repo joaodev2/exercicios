@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+ --font-padrao:'Poppins', sans-serif;
+ --color-logo: rgb(227, 96, 48);}
+
+ *{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-padrao);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+ }
+
+
+ body{
+ overflow: hidden;}
+
+ header{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px 50px;
+ border-bottom: 3px solid rgba(0, 0, 0, 0.134);
+ box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.123);
+}
+
+ header h1{
+  color: var(--color-logo);}
+ .text-logo{
+    color: black;
+ }
+
+ .navegation{
+ font-weight: 500;
+ font-size: 17px;
+ display: flex;
+ align-items: center;
+ gap: 80px;}
+
+ i{
+ font-size: 1.5rem;
+ cursor: pointer;}
+
+ .home{
+ width: 100%;
+ height: 100vh;
+ padding: 0px 10%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }
+
+ .home-text{
+    margin-right: 91px;
+   max-width: 550px;
+}
+
+.home-text .text-h4{
+    font-size: 1.5rem;
+    color: var(--color-logo);
+    margin-bottom: 1rem;
+}
+.home-text .text-h1{
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+.home-text p{
+    margin-bottom: 2rem;
+}
+
+.home-btn{
+    padding: 15px 45px;
+    background: var(--color-logo);
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.home-btn:hover{
+    background: #fc4c35;}
+
+
+ .home-img img{
+  width: 100%;
+  max-width: 100%;
+ }
+
+
+
+ @media screen and (max-width: 1100px){
+     .home{
+     display: flex;
+    flex-direction: column;
+    text-align: center;   
+ }
+    .home-text{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+
+   body{
+         overflow: auto;}
+    .home-img img{
+    width: 100%;
+    max-width: 70%;
+    margin-top: 40px;
+    }
+    
+ }
+
+ @media screen and (max-width: 850px){
+   header h1{
+      padding-right: 30px;
+}
+}
+ @media screen and (max-width: 750px){
+    .navegation{
+     display: none;}
+   
+}
+ 
+
