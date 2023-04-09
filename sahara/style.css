@@ -5,7 +5,7 @@
 
  :root{
      --cor-padrao:#fff;
-     --font-poppins:'Poppins', sans-serif;;
+     --font-poppins:'Poppins', sans-serif;
      }
 
  *{
@@ -17,7 +17,8 @@
      font-family: var(--font-poppins);
      max-width: 88vw;
      margin: auto;
-     background-size: cover;
+     height: 100vh;
+     background-position: center center;
      background-image: linear-gradient(rgba(0, 0, 0, 0.504), rgba(0, 0, 0, 0.504)),url(imagens/imagens-dow/background.png);
      }
      
@@ -26,7 +27,8 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   text-transform: uppercase;}
+   text-transform: uppercase;
+}
 
     #logo {
      transform: scale(0.40);}
@@ -38,24 +40,24 @@
      display: flex;
      align-items: center;
      list-style: none;
-     gap: 70px
-     ;
+     gap: 70px;
      }
 
 
 
   main{
-    margin-top: 50px;
-     display: flex;
-    justify-content: center;
-  align-items: center;}
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   height: 80vh;}
 
 
 
   .primeira-parte{
-     max-width: 50%;}
-
-
+    max-width: 50%;
+    width: 100%;
+    }
 
   .primeira-parte h1{
      font-size: 5.5em;
@@ -69,18 +71,17 @@
     margin-top: 40px;}
 
    .segunda-parte{
-     max-width: 500px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 30px;}
+     gap: 20px;
+     display: grid;
+     grid-template-columns: 50% 50%;
+     }
 
     .all{
       
       width:178px;
       height: 210px;
       background-color: lightgray;
-      border-radius: 25px;
+      border-radius:5px;
       background-size: cover
      } 
  

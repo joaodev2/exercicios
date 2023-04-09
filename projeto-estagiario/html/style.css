@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+ --font-padrao:'Poppins', sans-serif;
+ --font-roboto: 'Roboto', sans-serif;
+ --cor-logo:rgb(223,58,33);
+ --cor-padrao: #fff;
+ --cor-btn:  rgb(105, 105, 105);
+
+ }
+
+
+ *{ list-style: none;
+    text-decoration: none;
+    font-family: var(--font-roboto);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    body{
+    background-color: rgba(128, 128, 128, 0.144);
+    }
+
+     /* header*/
+
+    header{
+     width: 100%;
+     max-width: 100%;
+     height: 75px;
+  
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0px 20px;     
+    }
+   
+    .header-logo{
+     color: var(--cor-logo);
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     margin: 20px;
+     }
+    
+    .header-logo h1{
+     text-shadow:  0px 0px 2px  rgba(0, 0, 0, 0.251);;
+    }
+    .header-icons{
+     font-size: 2rem;}
+
+     /* pagina de cadastro */
+
+    .container-destino{
+     max-width:100%; 
+     padding: 10px;
+     height:600px;
+     background-image: url(../imagens/imagens/london.jpg);
+     background-size: cover;
+     background-position: center bottom;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;}
+
+
+
+   
+
+    .destino-selecione , ul, li , a{
+      
+     max-width: 900px;
+     width: 100%;
+     gap: 10px;
+     max-height: 50px;
+     height: 100%;
+     font-size: 19px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     }
+
+     .destino-selecione , a{
+      background-color: black; 
+      color: var(--cor-padrao);
+    }
+     .destino-selecione-icon-flight{
+       background-color: var(--cor-logo);
+     }
+
+     /* Formulario*/
+
+    .destino-formulario{
+     background-color: var(--cor-padrao);
+     max-width: 900px;
+     width: 100%;
+     height: 250px;
+     max-height: 100%; 
+     padding: 10px 20px; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 20px;
+    }
+
+    .destino-h2 > h2{
+    font-weight: 300;
+    font-size: 26px;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;    
+    }
+
+
+
+    .form1 {
+     display: flex;
+     flex-direction: column;
+     max-width: 420px;
+     width: 100%
+    }
+
+
+     .form2 > input{
+      padding: 11px 20px;
+      background-color: var(--cor-btn);
+      color: var(--cor-padrao);
+      font-size: 18px;
+      border: none;
+      font-weight: 300;
+    }
+
+
+    form input{
+    padding: 13px;
+    width: 100%;
+    }
+  
+    .geral{   
+    display: flex;
+    justify-content: space-between;
+    }
+
+    /*main*/
+
+    main{
+    margin: 40px auto;
+    width: 85%;
+    padding:5px
+    }
+
+   .primeira-parte{
+    height: 100%; 
+    width: 100%;
+  }
+    .primeira-parte > h2{
+        font-family: var(--font-roboto);
+        font-size: 2em;
+        font-weight: 300;   
+    }
+
+    .primeira-parte > p{
+     font-weight: 500;
+     font-size: 1.2em;
+     margin: 10px 0px;
+     font-family:  Georgia, Times, 'Times New Roman', serif;
+    }
+     
+
+  
+
+   .container-imagem-1 , .container-imagem-4 , .imagem-1 , .imagem-4 ,.imagens{
+     display: flex;
+     gap: 20px;   
+  }
+
+  .container-imagem-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+  }
+
+  .container-imagem-1{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+  }
+
+   .imagens img{
+   width: 100%;
+  }
+   
+    
+    /* segunda parte*/
+
+   
+    .title-segunda-parte{
+    margin: 30px 0px;
+    }
+   
+
+    .cards-segunda-parte{
+     display: flex;
+     gap: 20px;
+     height: 100%;
+     width: 100%;
+    }
+ 
+  
+    .imagens-card > img{
+      width: 100%;
+      height: 100%;
+    }
+  
+
+
+
+
+
+
+    
+   
+
+      .segunda-parte h2{
+      font-size: 1.7em;
+      font-weight: 300;   
+      }
+      .preco-cards{
+        color: gray;  
+      }
+
+      .segunda-parte p{
+       font-size: 1.1em;
+       font-weight: 300;
+      }
+    .descrição-imagem{
+       background-color: var(--cor-padrao);
+        display: flex;
+        flex-direction: column;
+        height: 240px;
+        gap: 25px;
+        padding: 20px;
+        
+    }
+
+    /* cadastro para contato */
+
+    .cadastro-email{
+      margin: 40px 0px;
+     background-color: rgb(84, 84, 84);
+     padding: 30px;
+     color: var(--cor-padrao);
+    }
+
+    .cadastro-email h2{
+      font-weight: 300;
+      font-size: 35px;
+    }
+
+    .cadastro-email input{
+     font-size: 17px;
+    }
+    .cadastro-email p {
+     font-size: 18px;
+     font-weight: 300;
+    }
+
+   #submit{
+     width: 120px;
+     background-color: var(--cor-logo);
+     border: 1px solid rgba(0, 0, 0, 0.107);
+     outline: none;
+    color: var(--cor-padrao); 
+  }
+
+
+  .contato-da-empresa{
+   height:30vh;
+   display: flex;
+   flex-direction: column;
+   gap: 79px;
+  }
+  .contato-da-empresa p {
+   font-size: 1.1em;
+  }
+
+  .contato-da-empresa ul{
+   display: flex;
+   flex-direction: column;
+   align-items:start;
+  }
+ .contato-da-empresa li{
+  width: auto;
+}
+
+.form-final input{
+  font-size: 1.1em;
+  padding: 18px;
+}
+
+.form-final #submit-final{
+ background-color: black;
+ padding: 10px;
+ color: var(--cor-padrao);
+ max-width: 190px;
+ width: 100%;
+
+}
+
+footer{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ color: rgba(0, 0, 0, 0.504);
+ font-size: 1.5em;
+ height: 20vh;}
+
+ footer i {
+ font-size: 1.7em;
+}
+
+
+@media screen and (max-width:768px){
+    main{
+     max-width: 100%;
+     width: 100%;
+     padding: 20px;
+    }
+    form input{
+       margin: 0px 5px;
+    
+      }
+  
+}
+
+@media screen and (max-width:450px) {
+
+  .container-destino{
+   padding: 0px 0px 20px 0px;
+   background-color: var(--cor-padrao);
+   background-image: none;
+   height: 100%;
+  }
+
+ .geral{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.destino-h2 > h2{
+ margin-top: 20px;
+  }
+  .imagens , .container-imagem-1 , .container-imagem-4{
+   display: flex;
+   flex-direction: column;}
+
+
+
+  
+}
+ 
+  
+
+
+
+
+     
+
+
+
+
+
+    
+
+  
+
+   
+
+   
+
+
+  
+
+  
+
+     
+
+         
+    
+
+
+   
+     
+    
+
+
+
+
+    
+
