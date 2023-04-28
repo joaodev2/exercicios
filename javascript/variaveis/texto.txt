@@ -1,0 +1,19 @@
+   
+   
+   Variáveis são como um (ID) ou (CLASS), que aparecem como um indetificador
+    e espaço vazio para ser programado. Nela você pode colocar um nome que
+    é a identidade do var e que da singularidade a ele.
+   como:
+
+   var joao = "18anos";
+
+   como o var podemos fazer muitas coisas como escrever conteidos como frases,
+   números, codigos e muito mais.
+
+   Mas não é só a variavel var que tem este papel tambem existe outras que são usadas
+   como:
+
+   let;
+   const;
+
+   que tem a mesma função de identidade e outras mais que diferenciam uma das outras.

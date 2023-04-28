@@ -1,0 +1,42 @@
+   Objeto.
+   
+
+   é um aespaço parecido com a function que guarda varios 
+   valores dentro dela. Ele é como se fosse uma pasta que pode ter 
+   varias propriedades que pode ser iguais ou diferentes.
+
+   exemplos: 
+
+   var pessoa = {
+     nome: 'joao',
+     idade: 18,
+   }
+
+   var quadrado = {
+    
+    area: funtion(lado){
+      return lado * lado;
+    },
+
+   joana: "eu sou joana";
+   
+   }
+
+
+   pontos no objetos.
+
+   eles são usados pra dizer e que você quer usar uma subcategoria 
+   do objeto.
+
+   exemplo:
+       var pessoa = {
+         nome: 'joao',
+         idade: 18, }
+
+         pessoa.nome = function(){
+           console.log('ola');
+         }
+
+         
+                  
+     

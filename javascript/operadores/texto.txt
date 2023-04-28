@@ -1,0 +1,82 @@
+  OPERADORES
+
+
+   operador de negação (!)
+
+    este operador é um elemento de negação que 
+    quando aparece no começo de outro operador
+    muda seu significado para o oposto, gerando
+    valores que eram True em False.
+
+    .if(!true)  // false
+
+    se usado duas vezes gera o valor inverso podendo 
+    ser aplicado quantas vezes quiser.
+
+    .if(!!true)  // true
+
+    .if(!!!true)  // false
+
+
+
+    Operadores de comparação (<),(>),(=).
+
+     este operador e conhecido tambem pela matemática.
+     Ele é usado para comparar se o número ou expressão
+     é maior igual ou menor que outro número ou expressão.
+
+     . 5 > 4; //true
+     . 5 <= 5 //true 
+     . 10 >= 30 //false
+
+
+
+   
+   Operadores de comparação (==) (===).
+
+      este operadores tambem exercem a função de 
+      comparar, mas os dois são muito parecidos a unica 
+      diferença é que um leva ou caracteres muito ao pe da letra
+      e um tenta não só conparar mais tambem achar uma lógica entre eles.
+     
+     . 'Gato' == 'gato' //false
+     . 'Gato' === 'gato' //false
+
+     == / igual à 
+     ===/ identico à
+
+
+
+  
+    Operadores lógicos && e ||
+
+     procura valores falsos 
+
+     .true && true; // true
+     .true && false; // false
+     .false && true; // false
+     .'Gato' && 'Cão'; // 'Cão'
+     .(5 - 5) && (5 + 5); // 0
+     .'Gato' && false; // false
+     .(5 >= 5) && (3 < 6); // true
+
+     Se os valores forem true 
+     ele irá retornar o último valor verificado
+     Se algum valor for false
+     ele irá retornar o mesmo
+     e não irá continuar a verificar os próximos.
+
+     ele procura um valor false e quando encontra ele 
+     despreza todo os outros, se não achar irá retornar
+     o ultimo valor.
+
+
+     || - ou
+
+     já ele procura um valor verdadeiro e tem a mesma 
+     função só que ao invés de procurar valores falsos
+     ele procura verdadeiros  e quando encontra o primeiro 
+     ignora o resto.
+
+     
+

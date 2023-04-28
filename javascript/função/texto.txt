@@ -1,0 +1,18 @@
+    FUNÇÃO
+  função carrega um monte de código que processado quando acionado.
+
+  function ação (parâmetro) {
+     retorno
+  }
+
+
+
+  Como ativar o comando?
+    ativa a função colocando o nome dela e o parametro.
+     
+      ex:   function escola(){
+               console.log('ola pessoal');
+             }
+            escola();
+
+  

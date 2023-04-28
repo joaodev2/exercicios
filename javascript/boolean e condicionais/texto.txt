@@ -1,0 +1,43 @@
+    BOOLEAN!
+
+  O valor booleano tambem é um valor primitivo, que tem em sua 
+ raiz determinar dois valor apenas (VERDADEIRO) ou (FALSO).
+ dentro destes valores podemos adicionar condicionais que dão
+ valor a estes valores, que são (IF) e (ELSE).
+
+
+
+ O if e else desempenham um papel de escolha a partir do que foi escolhido.
+ se um não for escolhido o outro sera:
+
+   if = se 
+   else = ou
+
+   exemplo:
+   var nome = true;
+     if(nome){console.log( É VERDADEIRO.);             
+     } else{
+     console.log(É FALSO.);
+
+   !Aqui foi dito que se o valor
+   for verdadeiro exiba (É VERDADEIRO.)
+   se não exiba exiba (É FALSO.)!
+
+
+
+
+exemplos:
+
+var possuiGraduacao = true;
+var possuiDoutorado = false;
+
+if(possuiDoutorado) {
+  console.log('Possui graduação e doutorado');
+} else if(possuiGraduacao) {
+  console.log('Possui graduação, mas não possui doutorado');
+} else {
+  console.log('Não possui graduação');
+}
+// retorna Possui Graduação, mas não possui doutorado
+
+

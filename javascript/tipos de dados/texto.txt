@@ -1,0 +1,52 @@
+    TIPOS DE DADOS.
+
+ Os tipos de dados são o conteudo que esta dentro da variável.Para cada valor
+  a variável tem um nome e identidade expecífica dependendo de qual classificação seja.
+
+ Os 7 tipos de dados:
+
+  1- String;    
+  2- Number;
+  3- Null;
+  4- Undefined;
+  5- Symbol;
+  6- Bolean;
+  7- Object;
+
+    var nome = 'André';         // String
+    var idade = 28;             // Number
+    var possuiFaculdade = true; // Boolean
+    var time;                   // Undefined
+    var comida = null;          // Null
+    var simbolo = Symbol()      // Symbol
+    var novoObjeto = {}         // Object
+
+
+
+
+    Importante!
+
+    As regras sintáticas de cada tipo de dados tem que ser restritamente 
+    respeitadas, porque um número pode se tornar string indesejadamente.
+    se não tiver sendo usado corretamente.
+    exemplo:
+
+    1- var idade = 28;   //Number
+    2- var idade = '28'; //String
+     
+
+
+
+PRIMITIVOS E NÃO PRIMITIVOS:
+ Todos são primitivos exceto os objetos.
+
+  significado que apenas o objeto 
+  pode ser modificado da sua forma
+  o identidade natural.
+
+
+
+ COMO SABER QUAL É QUAL?
+
+ Tem como saber aplicando um identificado de dados chamado 
+ 'typeof' depois que aconado ele retorna qual é o tipo de dado que é.        
