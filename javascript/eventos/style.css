@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+ margin: 0;
+ padding: 0;
+ background-color: aqua;
+ height: 100vh;
+ width:100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;}
+
+ .ativo{
+ 
+ background-color: rgb(113, 136, 167);
+ transition: ease-in-out 0.5s;
+}
+
+.ativado-caralho{
+  color: rgb(221, 255, 0);
+  list-style: none;
+  font-size: 7rem;
+  transition: ease-in-out 1s;
+}
+ 
+.caixa{
+    display: none;
+ background-color: lightsalmon;
+ width: 500px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50% , -50%);
+ padding: 20px;
+ border: 2px  solid rgba(0, 0, 0, 0.263);
+}
+footer{
+ width: 100%;
+ text-align: center;
+ background-color: blueviolet;
+}
+

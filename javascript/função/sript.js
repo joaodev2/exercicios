@@ -25,6 +25,39 @@
 }
 
 // addEventListener é uma função nativa do JavaScript
+  
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
 // utilize essa função para mostrar no console o seu nome completo
 // quando o evento 'scroll' ocorrer.
+
+
+function parOuImpar (n){
+  if(n%2==0){
+   return console.log('É Par')
+  }
+  else {
+    return console.log('É Impar OTÁRIO')
+  }
+}
+
+function j (n){
+if(n == 2){
+ console.log('É DOOOOOOISS!!!')
+}
+else{
+  console.log('não é dois')
+}
+}
+
+for(var i=0; i <= 10; i++){
+ console.log(`${'Número'} ${i}`)
+}
+
+
+const lista  = ['casa', 'carro', 'escola']; 
+
+for( var r = 0; r < lista.length; r++){
+console.log('Olá', lista[r]);
+}
+
+const joao = ['joao', 'joana','marcelo', 'marcela'];

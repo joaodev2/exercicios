@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.joana{
+ width: 300px;
+ height: 300px;
+ background-color: lightgreen;
+ 
+}
+body{
+ display: flex;
+ justify-content: center;
+}
